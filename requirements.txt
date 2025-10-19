@@ -1,0 +1,22 @@
+# requirements.txt (Final Deployment Version)
+
+# --- Core Framework ---
+streamlit
+
+# --- Data Handling & ML ---
+pandas
+numpy
+scikit-learn
+
+# --- Deep Learning & NLP ---
+# Catatan: torch akan diinstal sebagai dependensi dari sentence-transformers.
+# Jika Anda butuh versi GPU spesifik saat deploy, Anda bisa menentukannya di sini.
+sentence-transformers
+gensim # Untuk memuat model Word2Vec
+
+# --- Plotting & Visualisasi ---
+plotly
+
+# --- Report Generator Utilities ---
+jinja2
+pdfkit
